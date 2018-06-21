@@ -11,7 +11,6 @@ class Author
     @posts << post 
     @@all_posts << post
     post.author = self 
-    
   end
   
 end
